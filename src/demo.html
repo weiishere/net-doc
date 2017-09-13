@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>互联网医生</title>
+        <meta name="author" content="m-dd.jd.com">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" type="text/css" href="./css/base.css" />
+        <link rel="stylesheet" type="text/css" href="./css/skin.css" />
+        <link rel="stylesheet" type="text/css" href="./css/message.css" />
+    </head>
+    <body>
+        <div class="jui-main-warpper">
+            <div class="jui-extend-info" id="J_JuiExtendInfo">
+                <div class="jui-connect" id="J_JuiConnect">
+                    <i></i>联系客服
+                </div>
+                <div class="jui-doctor-info" id="J_JuiDoctorInfo">
+                    <i><img src="./i/skin/doctor.png" /></i>
+                    <span class="jui-state-info">等待医生接诊</span>
+                    <span class="jui-time-left">剩23小时58分</span>
+                    <span class="jui-extend-confirm">已通知医生尽快接诊，超时自动退款</span>
+                </div>
+                <div class="jui-doing-state jui-canceled" id="J_JuiDoingState">
+                    <i></i>
+                    <span class="jui-doing-desc">问诊中</span>
+                    <span class="jui-doing-left">15小时4分结束</span>
+                </div>
+            </div>
+            <div class="jui-msg-wrapper" id="J_JuiMsgWrapper">
+                <div class="jui-msg-time">昨天 22:57</div>
+                <div class="jui-msg-tip">
+                    <div class="jui-msg-tip-wrapper">温馨提示：您可以继续补充问诊内容，便于更快确认病情</div>
+                </div>
+                <div class="jui-msg-common jui-msg-other">
+                    <img class="jui-msg-avatar" src="./i/skin/doctor.png"/>
+                    <div class="jui-msg-content-wrapper">
+                        <div class="jui-msg-arrow"></div>
+                        <i class="jui-msg-arrow-cover"></i>
+                        <div class="jui-msg-content">咽喉有没有觉得肿大？</div>
+                    </div>
+                </div>
+                 <div class="jui-msg-common jui-msg-self">
+                    <img class="jui-msg-avatar" src="./i/skin/patient.png"/>
+                    <div class="jui-msg-content-wrapper">
+                        <div class="jui-msg-arrow"></div>
+                        <i class="jui-msg-arrow-cover"></i>
+                        <div class="jui-msg-content">没有，咽口水没有疼痛感</div>
+                    </div>
+                </div>
+                <div class="jui-msg-sys">
+                    —— 问诊开始，本次问诊可持续24小时 ——
+                </div>
+                <div class="jui-msg-common jui-msg-self jui-msg-patient-card">
+                    <img class="jui-msg-avatar" src="./i/skin/patient.png"/>
+                    <div class="jui-msg-content-wrapper">
+                        <div class="jui-msg-arrow"></div>
+                        <i class="jui-msg-arrow-cover"></i>
+                        <div class="jui-msg-content">
+                            <div class="jui-patient-doc">
+                                <div class="jui-patient-basic-info">李白<span class="jui-basic-lap"></span>男<span class="jui-basic-lap"></span>18岁
+                                <div class="jui-patient-condition-des">咳嗽，嗓子痒，没有痰，是干咳</div>
+                                </div>
+                                <div class="jui-patient-doc-link">
+                                    <a href=""><span>查看患者档案</span><i class="jui-link-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jui-msg-common jui-msg-other jui-msg-prescription-card">
+                    <img class="jui-msg-avatar" src="./i/skin/doctor.png"/>
+                    <div class="jui-msg-content-wrapper">
+                        <div class="jui-msg-arrow"></div>
+                        <i class="jui-msg-arrow-cover"></i>
+                        <div class="jui-msg-content">
+                            <div class="jui-prescription-doc">
+                                <div class="jui-prescription-result">
+                                    <i></i>初步诊断：慢性咽炎
+                                </div>
+                                <div class="jui-prescription-link">
+                                    <a href=""><span>查看处方详情</span><i class="jui-link-arrow"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jui-footer-wrapper" id="J_JuiFooterWrapper">
+                <span class="jui-icon-upload" id="J_JuiIconUpload"></span>
+                <div class="jui-input-wrapper" id="J_JuiInputWrapper">
+                    <input class="jui-input-large" value="请描述病情"></input>
+                </div>
+                <span class="jui-icon-send jui-inputting" id="J_JuiIconSend">发送</span>
+            </div>
+        </div>
+<!--         <div class="jui-popup" id="J_JuiPopup">
+            <div class="jui-popup-title" id="J_JuiPopupTitle"></div>
+            <div class="jui-popup-wrapper" id="J_JuiPopupWrapper">
+                <div class="jui-button-inline-wrapper">
+                    <a class="jui-button-blue jui-button-inline-two" href="javascript:;" id="J_JuiOnlineReConsult">在线复诊</a>
+                    <a class="jui-button-blue jui-button-inline-two" href="javascript:;" id="J_JuiCancel">取消</a>
+                </div>
+            </div>
+        </div -->>
+        <!-- <div class="jui-confirm">
+            <div class="jui-confirm-wrapper">
+                <div class="jui-confirm-title">好大夫在线</div>
+                <div class="jui-confirm-content-wrapper">是否立即拨打客服电话<p />130 1077 5287</div>
+                <div class="jui-confirm-button-wrapper">
+                    <div class="jui-button-inline-wrapper">
+                        <a class="jui-button-nagitive jui-button-inline-two" href="javascript:;" id="J_JuiCancel">确定取消</a>
+                        <a class="jui-button-blue jui-button-inline-two" href="javascript:;" id="J_JuiContinue">继续问诊</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </body>
+</html>

@@ -1,0 +1,23 @@
+/* CSS Document*/
+@charset "utf-8";
+html{ font-size: 16px;height: 100%;overflow: hidden;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0;
+vertical-align:baseline;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block;}
+img,fieldset{border:0}
+body,textarea,input,button,select,keygen,legend{outline:0;}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{color:#555;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-moz-tap-highlight-color:rgba(0,0,0,0);}
+table{border-collapse:collapse}
+.clr{ clear: both !important;}
+.hide{display: none}
+.visible{visibility:hidden}
+* html .cFix,* html .clearfix {display: inline-block;}
+*+html .cFix,*+html .clearfix {display: inline-block;}
+.cFix:after,.clearfix:after {height: 0;visibility: hidden;content: ".";display: block;clear: both; line-height:1.2;}
+body{height: 100%;overflow: hidden;min-width:320px;font-size:1rem; line-height: 1.2; background:#ECEFF2;font-family:'pingfang sc','ROBOTO',sans-serif,Helvetica,'microsoft yahei';color:#555;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-moz-tap-highlight-color:rgba(0,0,0,0);}
+button, input, textarea, select {font-family:'pingfang sc','ROBOTO',sans-serif,Helvetica,'microsoft yahei';-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+.transition{
+    transition: all 0.3s ease; -webkit-transition: all 0.3s ease-out;  
+}
